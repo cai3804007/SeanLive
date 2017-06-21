@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C0F6BC1EFA1C5F00799E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0F6BB1EFA1C5F00799E86 /* AppDelegate.swift */; };
+		03C0F6BE1EFA1C5F00799E86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0F6BD1EFA1C5F00799E86 /* ViewController.swift */; };
+		03C0F6C11EFA1C5F00799E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C0F6BF1EFA1C5F00799E86 /* Main.storyboard */; };
+		03C0F6C31EFA1C5F00799E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C0F6C21EFA1C5F00799E86 /* Assets.xcassets */; };
+		03C0F6C61EFA1C5F00799E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C0F6C41EFA1C5F00799E86 /* LaunchScreen.storyboard */; };
+		03C0F6D11EFA1C5F00799E86 /* SeanLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0F6D01EFA1C5F00799E86 /* SeanLiveTests.swift */; };
+		03C0F6DC1EFA1C5F00799E86 /* SeanLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0F6DB1EFA1C5F00799E86 /* SeanLiveUITests.swift */; };
+		03C0F7091EFA420F00799E86 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0F7081EFA420F00799E86 /* MainViewController.swift */; };
+		03C0F70B1EFA424600799E86 /* SeanNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0F70A1EFA424600799E86 /* SeanNavigationController.swift */; };
+		03C0F70F1EFA451F00799E86 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0F70E1EFA451F00799E86 /* HomeViewController.swift */; };
+		03C0F7111EFA452A00799E86 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C0F7101EFA452A00799E86 /* Home.storyboard */; };
+		9298DF39925C8A979E7CB294 /* Pods_SeanLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA5C26033D7E3C76966B377 /* Pods_SeanLive.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C0F6CD1EFA1C5F00799E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C0F6B01EFA1C5F00799E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C0F6B71EFA1C5F00799E86;
+			remoteInfo = SeanLive;
+		};
+		03C0F6D81EFA1C5F00799E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C0F6B01EFA1C5F00799E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C0F6B71EFA1C5F00799E86;
+			remoteInfo = SeanLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C0F6B81EFA1C5F00799E86 /* SeanLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeanLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C0F6BB1EFA1C5F00799E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03C0F6BD1EFA1C5F00799E86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03C0F6C01EFA1C5F00799E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C0F6C21EFA1C5F00799E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C0F6C51EFA1C5F00799E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C0F6C71EFA1C5F00799E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C0F6CC1EFA1C5F00799E86 /* SeanLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeanLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C0F6D01EFA1C5F00799E86 /* SeanLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeanLiveTests.swift; sourceTree = "<group>"; };
+		03C0F6D21EFA1C5F00799E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C0F6D71EFA1C5F00799E86 /* SeanLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeanLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C0F6DB1EFA1C5F00799E86 /* SeanLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeanLiveUITests.swift; sourceTree = "<group>"; };
+		03C0F6DD1EFA1C5F00799E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C0F7081EFA420F00799E86 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		03C0F70A1EFA424600799E86 /* SeanNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeanNavigationController.swift; sourceTree = "<group>"; };
+		03C0F70E1EFA451F00799E86 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		03C0F7101EFA452A00799E86 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4CA5C26033D7E3C76966B377 /* Pods_SeanLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeanLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8FA25D6D0E77C18E1AB76B /* Pods-SeanLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeanLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeanLive/Pods-SeanLive.release.xcconfig"; sourceTree = "<group>"; };
+		E4E9819F9E6B858E23B1DAD4 /* Pods-SeanLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeanLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeanLive/Pods-SeanLive.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C0F6B51EFA1C5F00799E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9298DF39925C8A979E7CB294 /* Pods_SeanLive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C0F6C91EFA1C5F00799E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C0F6D41EFA1C5F00799E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C0F6AF1EFA1C5F00799E86 = {
+			isa = PBXGroup;
+			children = (
+				03C0F6BA1EFA1C5F00799E86 /* SeanLive */,
+				03C0F6CF1EFA1C5F00799E86 /* SeanLiveTests */,
+				03C0F6DA1EFA1C5F00799E86 /* SeanLiveUITests */,
+				03C0F6B91EFA1C5F00799E86 /* Products */,
+				BDFE15EA54BF86FF395733AB /* Pods */,
+				814D2ADFE48E6C145FC8B8A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03C0F6B91EFA1C5F00799E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F6B81EFA1C5F00799E86 /* SeanLive.app */,
+				03C0F6CC1EFA1C5F00799E86 /* SeanLiveTests.xctest */,
+				03C0F6D71EFA1C5F00799E86 /* SeanLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C0F6BA1EFA1C5F00799E86 /* SeanLive */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F6EA1EFA1DFE00799E86 /* Resoure */,
+				03C0F6E91EFA1DF800799E86 /* Classes */,
+				03C0F6BB1EFA1C5F00799E86 /* AppDelegate.swift */,
+				03C0F6BD1EFA1C5F00799E86 /* ViewController.swift */,
+				03C0F6BF1EFA1C5F00799E86 /* Main.storyboard */,
+				03C0F6C21EFA1C5F00799E86 /* Assets.xcassets */,
+				03C0F6C41EFA1C5F00799E86 /* LaunchScreen.storyboard */,
+				03C0F6C71EFA1C5F00799E86 /* Info.plist */,
+			);
+			path = SeanLive;
+			sourceTree = "<group>";
+		};
+		03C0F6CF1EFA1C5F00799E86 /* SeanLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F6D01EFA1C5F00799E86 /* SeanLiveTests.swift */,
+				03C0F6D21EFA1C5F00799E86 /* Info.plist */,
+			);
+			path = SeanLiveTests;
+			sourceTree = "<group>";
+		};
+		03C0F6DA1EFA1C5F00799E86 /* SeanLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F6DB1EFA1C5F00799E86 /* SeanLiveUITests.swift */,
+				03C0F6DD1EFA1C5F00799E86 /* Info.plist */,
+			);
+			path = SeanLiveUITests;
+			sourceTree = "<group>";
+		};
+		03C0F6E91EFA1DF800799E86 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F6EB1EFA1FA400799E86 /* Base */,
+				03C0F6F01EFA20EF00799E86 /* Main */,
+				03C0F6F61EFA210200799E86 /* Live */,
+				03C0F6FF1EFA210900799E86 /* Home */,
+				03C0F7041EFA212200799E86 /* Rank */,
+				03C0F7051EFA212C00799E86 /* Discover */,
+				03C0F7061EFA213300799E86 /* Profile */,
+				03C0F7071EFA213C00799E86 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		03C0F6EA1EFA1DFE00799E86 /* Resoure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resoure;
+			sourceTree = "<group>";
+		};
+		03C0F6EB1EFA1FA400799E86 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F6EC1EFA1FA400799E86 /* Controller */,
+				03C0F6ED1EFA1FA400799E86 /* Model */,
+				03C0F6EE1EFA1FA400799E86 /* View */,
+				03C0F6EF1EFA1FA400799E86 /* ViewModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		03C0F6EC1EFA1FA400799E86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03C0F6ED1EFA1FA400799E86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03C0F6EE1EFA1FA400799E86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03C0F6EF1EFA1FA400799E86 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03C0F6F01EFA20EF00799E86 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F6F11EFA20EF00799E86 /* Common */,
+				03C0F6F21EFA20EF00799E86 /* Controller */,
+				03C0F6F31EFA20EF00799E86 /* Extension */,
+				03C0F6F41EFA20EF00799E86 /* Protocol */,
+				03C0F6F51EFA20EF00799E86 /* SeanPageView */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		03C0F6F11EFA20EF00799E86 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		03C0F6F21EFA20EF00799E86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F7081EFA420F00799E86 /* MainViewController.swift */,
+				03C0F70A1EFA424600799E86 /* SeanNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03C0F6F31EFA20EF00799E86 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		03C0F6F41EFA20EF00799E86 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		03C0F6F51EFA20EF00799E86 /* SeanPageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SeanPageView;
+			sourceTree = "<group>";
+		};
+		03C0F6F61EFA210200799E86 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F6F71EFA210200799E86 /* Controller */,
+				03C0F6F81EFA210200799E86 /* Model */,
+				03C0F6F91EFA210200799E86 /* SeanSocket */,
+				03C0F6FA1EFA210200799E86 /* View */,
+				03C0F6FE1EFA210200799E86 /* ViewModel */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		03C0F6F71EFA210200799E86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03C0F6F81EFA210200799E86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03C0F6F91EFA210200799E86 /* SeanSocket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SeanSocket;
+			sourceTree = "<group>";
+		};
+		03C0F6FA1EFA210200799E86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F6FB1EFA210200799E86 /* ChatContentView */,
+				03C0F6FC1EFA210200799E86 /* ChatView */,
+				03C0F6FD1EFA210200799E86 /* GifView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03C0F6FB1EFA210200799E86 /* ChatContentView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChatContentView;
+			sourceTree = "<group>";
+		};
+		03C0F6FC1EFA210200799E86 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
+		03C0F6FD1EFA210200799E86 /* GifView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GifView;
+			sourceTree = "<group>";
+		};
+		03C0F6FE1EFA210200799E86 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03C0F6FF1EFA210900799E86 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F7001EFA210900799E86 /* Controller */,
+				03C0F7011EFA210900799E86 /* Model */,
+				03C0F7021EFA210900799E86 /* Other */,
+				03C0F7031EFA210900799E86 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		03C0F7001EFA210900799E86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03C0F70E1EFA451F00799E86 /* HomeViewController.swift */,
+				03C0F7101EFA452A00799E86 /* Home.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03C0F7011EFA210900799E86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03C0F7021EFA210900799E86 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		03C0F7031EFA210900799E86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03C0F7041EFA212200799E86 /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		03C0F7051EFA212C00799E86 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		03C0F7061EFA213300799E86 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		03C0F7071EFA213C00799E86 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		814D2ADFE48E6C145FC8B8A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CA5C26033D7E3C76966B377 /* Pods_SeanLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDFE15EA54BF86FF395733AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4E9819F9E6B858E23B1DAD4 /* Pods-SeanLive.debug.xcconfig */,
+				8C8FA25D6D0E77C18E1AB76B /* Pods-SeanLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C0F6B71EFA1C5F00799E86 /* SeanLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C0F6E01EFA1C5F00799E86 /* Build configuration list for PBXNativeTarget "SeanLive" */;
+			buildPhases = (
+				A2D12B1EE958E036606CA0D0 /* [CP] Check Pods Manifest.lock */,
+				03C0F6B41EFA1C5F00799E86 /* Sources */,
+				03C0F6B51EFA1C5F00799E86 /* Frameworks */,
+				03C0F6B61EFA1C5F00799E86 /* Resources */,
+				B7F52CBE5EFD942962EEE4E8 /* [CP] Embed Pods Frameworks */,
+				8947E95ABC60D2C90AAE4EA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeanLive;
+			productName = SeanLive;
+			productReference = 03C0F6B81EFA1C5F00799E86 /* SeanLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C0F6CB1EFA1C5F00799E86 /* SeanLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C0F6E31EFA1C5F00799E86 /* Build configuration list for PBXNativeTarget "SeanLiveTests" */;
+			buildPhases = (
+				03C0F6C81EFA1C5F00799E86 /* Sources */,
+				03C0F6C91EFA1C5F00799E86 /* Frameworks */,
+				03C0F6CA1EFA1C5F00799E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C0F6CE1EFA1C5F00799E86 /* PBXTargetDependency */,
+			);
+			name = SeanLiveTests;
+			productName = SeanLiveTests;
+			productReference = 03C0F6CC1EFA1C5F00799E86 /* SeanLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03C0F6D61EFA1C5F00799E86 /* SeanLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C0F6E61EFA1C5F00799E86 /* Build configuration list for PBXNativeTarget "SeanLiveUITests" */;
+			buildPhases = (
+				03C0F6D31EFA1C5F00799E86 /* Sources */,
+				03C0F6D41EFA1C5F00799E86 /* Frameworks */,
+				03C0F6D51EFA1C5F00799E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C0F6D91EFA1C5F00799E86 /* PBXTargetDependency */,
+			);
+			name = SeanLiveUITests;
+			productName = SeanLiveUITests;
+			productReference = 03C0F6D71EFA1C5F00799E86 /* SeanLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C0F6B01EFA1C5F00799E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sean;
+				TargetAttributes = {
+					03C0F6B71EFA1C5F00799E86 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 58T2GZC329;
+						ProvisioningStyle = Automatic;
+					};
+					03C0F6CB1EFA1C5F00799E86 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 58T2GZC329;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03C0F6B71EFA1C5F00799E86;
+					};
+					03C0F6D61EFA1C5F00799E86 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 58T2GZC329;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03C0F6B71EFA1C5F00799E86;
+					};
+				};
+			};
+			buildConfigurationList = 03C0F6B31EFA1C5F00799E86 /* Build configuration list for PBXProject "SeanLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C0F6AF1EFA1C5F00799E86;
+			productRefGroup = 03C0F6B91EFA1C5F00799E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C0F6B71EFA1C5F00799E86 /* SeanLive */,
+				03C0F6CB1EFA1C5F00799E86 /* SeanLiveTests */,
+				03C0F6D61EFA1C5F00799E86 /* SeanLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C0F6B61EFA1C5F00799E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C0F6C61EFA1C5F00799E86 /* LaunchScreen.storyboard in Resources */,
+				03C0F6C31EFA1C5F00799E86 /* Assets.xcassets in Resources */,
+				03C0F6C11EFA1C5F00799E86 /* Main.storyboard in Resources */,
+				03C0F7111EFA452A00799E86 /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C0F6CA1EFA1C5F00799E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C0F6D51EFA1C5F00799E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8947E95ABC60D2C90AAE4EA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeanLive/Pods-SeanLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D12B1EE958E036606CA0D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7F52CBE5EFD942962EEE4E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeanLive/Pods-SeanLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C0F6B41EFA1C5F00799E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C0F70F1EFA451F00799E86 /* HomeViewController.swift in Sources */,
+				03C0F70B1EFA424600799E86 /* SeanNavigationController.swift in Sources */,
+				03C0F7091EFA420F00799E86 /* MainViewController.swift in Sources */,
+				03C0F6BE1EFA1C5F00799E86 /* ViewController.swift in Sources */,
+				03C0F6BC1EFA1C5F00799E86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C0F6C81EFA1C5F00799E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C0F6D11EFA1C5F00799E86 /* SeanLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C0F6D31EFA1C5F00799E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C0F6DC1EFA1C5F00799E86 /* SeanLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C0F6CE1EFA1C5F00799E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C0F6B71EFA1C5F00799E86 /* SeanLive */;
+			targetProxy = 03C0F6CD1EFA1C5F00799E86 /* PBXContainerItemProxy */;
+		};
+		03C0F6D91EFA1C5F00799E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C0F6B71EFA1C5F00799E86 /* SeanLive */;
+			targetProxy = 03C0F6D81EFA1C5F00799E86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03C0F6BF1EFA1C5F00799E86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C0F6C01EFA1C5F00799E86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03C0F6C41EFA1C5F00799E86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C0F6C51EFA1C5F00799E86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C0F6DE1EFA1C5F00799E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03C0F6DF1EFA1C5F00799E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C0F6E11EFA1C5F00799E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E9819F9E6B858E23B1DAD4 /* Pods-SeanLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58T2GZC329;
+				INFOPLIST_FILE = SeanLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sean.SeanLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03C0F6E21EFA1C5F00799E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8FA25D6D0E77C18E1AB76B /* Pods-SeanLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58T2GZC329;
+				INFOPLIST_FILE = SeanLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sean.SeanLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		03C0F6E41EFA1C5F00799E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58T2GZC329;
+				INFOPLIST_FILE = SeanLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sean.SeanLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeanLive.app/SeanLive";
+			};
+			name = Debug;
+		};
+		03C0F6E51EFA1C5F00799E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58T2GZC329;
+				INFOPLIST_FILE = SeanLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sean.SeanLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeanLive.app/SeanLive";
+			};
+			name = Release;
+		};
+		03C0F6E71EFA1C5F00799E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 58T2GZC329;
+				INFOPLIST_FILE = SeanLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sean.SeanLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SeanLive;
+			};
+			name = Debug;
+		};
+		03C0F6E81EFA1C5F00799E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 58T2GZC329;
+				INFOPLIST_FILE = SeanLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sean.SeanLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SeanLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C0F6B31EFA1C5F00799E86 /* Build configuration list for PBXProject "SeanLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C0F6DE1EFA1C5F00799E86 /* Debug */,
+				03C0F6DF1EFA1C5F00799E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C0F6E01EFA1C5F00799E86 /* Build configuration list for PBXNativeTarget "SeanLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C0F6E11EFA1C5F00799E86 /* Debug */,
+				03C0F6E21EFA1C5F00799E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C0F6E31EFA1C5F00799E86 /* Build configuration list for PBXNativeTarget "SeanLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C0F6E41EFA1C5F00799E86 /* Debug */,
+				03C0F6E51EFA1C5F00799E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C0F6E61EFA1C5F00799E86 /* Build configuration list for PBXNativeTarget "SeanLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C0F6E71EFA1C5F00799E86 /* Debug */,
+				03C0F6E81EFA1C5F00799E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C0F6B01EFA1C5F00799E86 /* Project object */;
+}
