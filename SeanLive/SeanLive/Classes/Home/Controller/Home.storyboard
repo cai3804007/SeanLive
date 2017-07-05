@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="-478" y="-216"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="Heo-qf-L7M">
             <objects>
-                <viewController id="55h-Mw-FGa" sceneMemberID="viewController">
+                <viewController id="55h-Mw-FGa" customClass="HomeViewController" customModule="SeanLive" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DVU-8T-Miz"/>
                         <viewControllerLayoutGuide type="bottom" id="Obt-WY-qDw"/>

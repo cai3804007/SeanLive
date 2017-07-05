@@ -13,7 +13,9 @@ class MainViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         addChildVcFromName(stroyName: "Home")
-        
+        addChildVcFromName(stroyName: "Rank")
+        addChildVcFromName(stroyName: "Discover")
+        addChildVcFromName(stroyName: "Profile")
     }
 
     func addChildVcFromName(stroyName:String) {
