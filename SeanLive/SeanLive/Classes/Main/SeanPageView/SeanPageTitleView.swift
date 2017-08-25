@@ -240,6 +240,11 @@ extension SeanPageTitleView {
 extension SeanPageTitleView {
     
     func setTitleWithProgress(_ progress : CGFloat, sourceIndex : Int,targetIndex : Int){
+        
+        if (sourceIndex > titleLabels.count - 1) || (targetIndex > titleLabels.count - 1) {
+            return
+        }
+        
         // 1.取出sourceIndex和targetIndex
         let sourceLabel = titleLabels[sourceIndex]
         let targetLabel = titleLabels[targetIndex]

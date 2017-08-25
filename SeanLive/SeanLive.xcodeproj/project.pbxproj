@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0306C7B81F1CB10A0074CEA0 /* SeanWaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306C7B71F1CB10A0074CEA0 /* SeanWaterFallLayout.swift */; };
+		0306C7BA1F1CB2680074CEA0 /* ConstString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306C7B91F1CB2680074CEA0 /* ConstString.swift */; };
+		030F1F581F2B1CF400D4F874 /* EmoticonVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F1F571F2B1CF400D4F874 /* EmoticonVM.swift */; };
+		030F1F5A1F2B1D7E00D4F874 /* EmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F1F591F2B1D7E00D4F874 /* EmoticonPackage.swift */; };
+		032B27ED1F30273000A5BE31 /* GiftListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B27EC1F30273000A5BE31 /* GiftListView.swift */; };
+		032B27F01F30275600A5BE31 /* GiftViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B27EE1F30275600A5BE31 /* GiftViewCell.swift */; };
+		032B27F11F30275600A5BE31 /* GiftViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032B27EF1F30275600A5BE31 /* GiftViewCell.xib */; };
+		032B27F31F30284A00A5BE31 /* GiftListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032B27F21F30284A00A5BE31 /* GiftListView.xib */; };
+		032B27F51F3033F200A5BE31 /* GiftVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B27F41F3033F200A5BE31 /* GiftVM.swift */; };
+		032B27F71F30341F00A5BE31 /* GiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B27F61F30341F00A5BE31 /* GiftModel.swift */; };
+		032B27F91F304E9000A5BE31 /* GiftPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B27F81F304E9000A5BE31 /* GiftPackage.swift */; };
+		03A33CF31F2832460050F583 /* EmoticonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A33CF11F2832460050F583 /* EmoticonViewCell.swift */; };
+		03A33CF41F2832460050F583 /* EmoticonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A33CF21F2832460050F583 /* EmoticonViewCell.xib */; };
+		03A33CF61F2843BD0050F583 /* EmoticonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A33CF51F2843BD0050F583 /* EmoticonModel.swift */; };
+		03A33CF91F2871D90050F583 /* QHNormalEmotionSort.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03A33CF71F2871D90050F583 /* QHNormalEmotionSort.plist */; };
+		03A33CFA1F2871D90050F583 /* QHSohuGifSort.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03A33CF81F2871D90050F583 /* QHSohuGifSort.plist */; };
+		03A33CFC1F28722C0050F583 /* SeanChatToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A33CFB1F28722C0050F583 /* SeanChatToolView.swift */; };
+		03A33CFE1F2872570050F583 /* SeanChatToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A33CFD1F2872570050F583 /* SeanChatToolView.xib */; };
+		03A33D001F2878A50050F583 /* LoadFromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A33CFF1F2878A50050F583 /* LoadFromNib.swift */; };
+		03A33D021F287CFB0050F583 /* EmoticonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A33D011F287CFB0050F583 /* EmoticonView.swift */; };
+		03AB7B5B1F21ED65009AA482 /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03AB7B591F21ED65009AA482 /* HomeViewCell.xib */; };
+		03AB7B5C1F21ED65009AA482 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB7B5A1F21ED65009AA482 /* HomeViewCell.swift */; };
 		03B20F1F1EFBACFA005AC817 /* AnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B20F1E1EFBACFA005AC817 /* AnchorViewController.swift */; };
 		03B20F211EFBAD43005AC817 /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03B20F201EFBAD43005AC817 /* types.plist */; };
 		03B20F231EFBB45C005AC817 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B20F221EFBB45C005AC817 /* HomeModel.swift */; };
@@ -33,6 +55,13 @@
 		03C0F7271EFA62E200799E86 /* SeanPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0F7201EFA62E200799E86 /* SeanPageTitleView.swift */; };
 		03C0F7281EFA62E200799E86 /* SeanPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0F7211EFA62E200799E86 /* SeanPageView.swift */; };
 		03C0F7291EFA62E200799E86 /* SeanPageViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0F7221EFA62E200799E86 /* SeanPageViewStyle.swift */; };
+		03D8D0931F258F6A0088BEC5 /* RommController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8D0911F258F6A0088BEC5 /* RommController.swift */; };
+		03D8D0941F258F6A0088BEC5 /* RommController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D8D0921F258F6A0088BEC5 /* RommController.xib */; };
+		03D8D0961F25C7AD0088BEC5 /* Emitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8D0951F25C7AD0088BEC5 /* Emitterable.swift */; };
+		03E88F611F1DBA6E004E460A /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E88F601F1DBA6E004E460A /* AnchorModel.swift */; };
+		03E88FB51F1DFA61004E460A /* KingfisherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E88FB41F1DFA61004E460A /* KingfisherExtension.swift */; };
+		03E88FB71F1E0057004E460A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E88FB61F1E0057004E460A /* HomeViewModel.swift */; };
+		03E88FB91F1E01BC004E460A /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E88FB81F1E01BC004E460A /* NetworkTools.swift */; };
 		9298DF39925C8A979E7CB294 /* Pods_SeanLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA5C26033D7E3C76966B377 /* Pods_SeanLive.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +83,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0306C7B71F1CB10A0074CEA0 /* SeanWaterFallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeanWaterFallLayout.swift; sourceTree = "<group>"; };
+		0306C7B91F1CB2680074CEA0 /* ConstString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstString.swift; sourceTree = "<group>"; };
+		030F1F571F2B1CF400D4F874 /* EmoticonVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonVM.swift; sourceTree = "<group>"; };
+		030F1F591F2B1D7E00D4F874 /* EmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonPackage.swift; sourceTree = "<group>"; };
+		032B27EC1F30273000A5BE31 /* GiftListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftListView.swift; sourceTree = "<group>"; };
+		032B27EE1F30275600A5BE31 /* GiftViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftViewCell.swift; sourceTree = "<group>"; };
+		032B27EF1F30275600A5BE31 /* GiftViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiftViewCell.xib; sourceTree = "<group>"; };
+		032B27F21F30284A00A5BE31 /* GiftListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiftListView.xib; sourceTree = "<group>"; };
+		032B27F41F3033F200A5BE31 /* GiftVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftVM.swift; sourceTree = "<group>"; };
+		032B27F61F30341F00A5BE31 /* GiftModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftModel.swift; sourceTree = "<group>"; };
+		032B27F81F304E9000A5BE31 /* GiftPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftPackage.swift; sourceTree = "<group>"; };
+		03A33CF11F2832460050F583 /* EmoticonViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonViewCell.swift; sourceTree = "<group>"; };
+		03A33CF21F2832460050F583 /* EmoticonViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmoticonViewCell.xib; sourceTree = "<group>"; };
+		03A33CF51F2843BD0050F583 /* EmoticonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonModel.swift; sourceTree = "<group>"; };
+		03A33CF71F2871D90050F583 /* QHNormalEmotionSort.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QHNormalEmotionSort.plist; sourceTree = "<group>"; };
+		03A33CF81F2871D90050F583 /* QHSohuGifSort.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QHSohuGifSort.plist; sourceTree = "<group>"; };
+		03A33CFB1F28722C0050F583 /* SeanChatToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeanChatToolView.swift; sourceTree = "<group>"; };
+		03A33CFD1F2872570050F583 /* SeanChatToolView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeanChatToolView.xib; sourceTree = "<group>"; };
+		03A33CFF1F2878A50050F583 /* LoadFromNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadFromNib.swift; sourceTree = "<group>"; };
+		03A33D011F287CFB0050F583 /* EmoticonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonView.swift; sourceTree = "<group>"; };
+		03AB7B591F21ED65009AA482 /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		03AB7B5A1F21ED65009AA482 /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 		03B20F1E1EFBACFA005AC817 /* AnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
 		03B20F201EFBAD43005AC817 /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
 		03B20F221EFBB45C005AC817 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
@@ -86,6 +137,13 @@
 		03C0F7201EFA62E200799E86 /* SeanPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeanPageTitleView.swift; sourceTree = "<group>"; };
 		03C0F7211EFA62E200799E86 /* SeanPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeanPageView.swift; sourceTree = "<group>"; };
 		03C0F7221EFA62E200799E86 /* SeanPageViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeanPageViewStyle.swift; sourceTree = "<group>"; };
+		03D8D0911F258F6A0088BEC5 /* RommController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RommController.swift; sourceTree = "<group>"; };
+		03D8D0921F258F6A0088BEC5 /* RommController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RommController.xib; sourceTree = "<group>"; };
+		03D8D0951F25C7AD0088BEC5 /* Emitterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emitterable.swift; sourceTree = "<group>"; };
+		03E88F601F1DBA6E004E460A /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		03E88FB41F1DFA61004E460A /* KingfisherExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherExtension.swift; sourceTree = "<group>"; };
+		03E88FB61F1E0057004E460A /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		03E88FB81F1E01BC004E460A /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		4CA5C26033D7E3C76966B377 /* Pods_SeanLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeanLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8FA25D6D0E77C18E1AB76B /* Pods-SeanLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeanLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeanLive/Pods-SeanLive.release.xcconfig"; sourceTree = "<group>"; };
 		E4E9819F9E6B858E23B1DAD4 /* Pods-SeanLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeanLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeanLive/Pods-SeanLive.debug.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +248,8 @@
 		03C0F6EA1EFA1DFE00799E86 /* Resoure */ = {
 			isa = PBXGroup;
 			children = (
+				03A33CF71F2871D90050F583 /* QHNormalEmotionSort.plist */,
+				03A33CF81F2871D90050F583 /* QHSohuGifSort.plist */,
 				03B20F201EFBAD43005AC817 /* types.plist */,
 			);
 			path = Resoure;
@@ -250,6 +310,7 @@
 		03C0F6F11EFA20EF00799E86 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0306C7B91F1CB2680074CEA0 /* ConstString.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -273,6 +334,8 @@
 		03C0F6F41EFA20EF00799E86 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				03D8D0951F25C7AD0088BEC5 /* Emitterable.swift */,
+				03A33CFF1F2878A50050F583 /* LoadFromNib.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -280,6 +343,7 @@
 		03C0F6F51EFA20EF00799E86 /* SeanPageView */ = {
 			isa = PBXGroup;
 			children = (
+				0306C7B71F1CB10A0074CEA0 /* SeanWaterFallLayout.swift */,
 				03C0F71C1EFA62E200799E86 /* SeanColor-Extension.swift */,
 				03C0F71D1EFA62E200799E86 /* SeanGiftLayout.swift */,
 				03C0F71E1EFA62E200799E86 /* SeanGiftView.swift */,
@@ -306,6 +370,8 @@
 		03C0F6F71EFA210200799E86 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				03D8D0911F258F6A0088BEC5 /* RommController.swift */,
+				03D8D0921F258F6A0088BEC5 /* RommController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -313,6 +379,10 @@
 		03C0F6F81EFA210200799E86 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				03A33CF51F2843BD0050F583 /* EmoticonModel.swift */,
+				030F1F591F2B1D7E00D4F874 /* EmoticonPackage.swift */,
+				032B27F61F30341F00A5BE31 /* GiftModel.swift */,
+				032B27F81F304E9000A5BE31 /* GiftPackage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -344,6 +414,11 @@
 		03C0F6FC1EFA210200799E86 /* ChatView */ = {
 			isa = PBXGroup;
 			children = (
+				03A33CF11F2832460050F583 /* EmoticonViewCell.swift */,
+				03A33CF21F2832460050F583 /* EmoticonViewCell.xib */,
+				03A33CFB1F28722C0050F583 /* SeanChatToolView.swift */,
+				03A33CFD1F2872570050F583 /* SeanChatToolView.xib */,
+				03A33D011F287CFB0050F583 /* EmoticonView.swift */,
 			);
 			path = ChatView;
 			sourceTree = "<group>";
@@ -351,6 +426,10 @@
 		03C0F6FD1EFA210200799E86 /* GifView */ = {
 			isa = PBXGroup;
 			children = (
+				032B27EC1F30273000A5BE31 /* GiftListView.swift */,
+				032B27F21F30284A00A5BE31 /* GiftListView.xib */,
+				032B27EE1F30275600A5BE31 /* GiftViewCell.swift */,
+				032B27EF1F30275600A5BE31 /* GiftViewCell.xib */,
 			);
 			path = GifView;
 			sourceTree = "<group>";
@@ -358,6 +437,8 @@
 		03C0F6FE1EFA210200799E86 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				030F1F571F2B1CF400D4F874 /* EmoticonVM.swift */,
+				032B27F41F3033F200A5BE31 /* GiftVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -387,6 +468,7 @@
 			isa = PBXGroup;
 			children = (
 				03B20F221EFBB45C005AC817 /* HomeModel.swift */,
+				03E88F601F1DBA6E004E460A /* AnchorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -394,6 +476,7 @@
 		03C0F7021EFA210900799E86 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				03E88FB61F1E0057004E460A /* HomeViewModel.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -401,6 +484,8 @@
 		03C0F7031EFA210900799E86 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				03AB7B591F21ED65009AA482 /* HomeViewCell.xib */,
+				03AB7B5A1F21ED65009AA482 /* HomeViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -433,6 +518,8 @@
 		03C0F7071EFA213C00799E86 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				03E88FB41F1DFA61004E460A /* KingfisherExtension.swift */,
+				03E88FB81F1E01BC004E460A /* NetworkTools.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -568,13 +655,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C0F7171EFA5A9700799E86 /* Rank.storyboard in Resources */,
+				03A33CFA1F2871D90050F583 /* QHSohuGifSort.plist in Resources */,
+				032B27F31F30284A00A5BE31 /* GiftListView.xib in Resources */,
+				03A33CF41F2832460050F583 /* EmoticonViewCell.xib in Resources */,
 				03C0F6C61EFA1C5F00799E86 /* LaunchScreen.storyboard in Resources */,
 				03B20F211EFBAD43005AC817 /* types.plist in Resources */,
+				03A33CFE1F2872570050F583 /* SeanChatToolView.xib in Resources */,
+				03AB7B5B1F21ED65009AA482 /* HomeViewCell.xib in Resources */,
+				03D8D0941F258F6A0088BEC5 /* RommController.xib in Resources */,
 				03C0F6C31EFA1C5F00799E86 /* Assets.xcassets in Resources */,
 				03C0F7151EFA598D00799E86 /* Discover.storyboard in Resources */,
+				03A33CF91F2871D90050F583 /* QHNormalEmotionSort.plist in Resources */,
 				03C0F6C11EFA1C5F00799E86 /* Main.storyboard in Resources */,
 				03C0F7191EFA5ADD00799E86 /* Profile.storyboard in Resources */,
 				03C0F7111EFA452A00799E86 /* Home.storyboard in Resources */,
+				032B27F11F30275600A5BE31 /* GiftViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,21 +743,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C0F70F1EFA451F00799E86 /* HomeViewController.swift in Sources */,
+				03D8D0961F25C7AD0088BEC5 /* Emitterable.swift in Sources */,
+				03E88FB71F1E0057004E460A /* HomeViewModel.swift in Sources */,
 				03C0F70B1EFA424600799E86 /* SeanNavigationController.swift in Sources */,
+				03A33CF61F2843BD0050F583 /* EmoticonModel.swift in Sources */,
+				03A33CFC1F28722C0050F583 /* SeanChatToolView.swift in Sources */,
+				03A33D001F2878A50050F583 /* LoadFromNib.swift in Sources */,
+				030F1F581F2B1CF400D4F874 /* EmoticonVM.swift in Sources */,
+				03E88F611F1DBA6E004E460A /* AnchorModel.swift in Sources */,
 				03C0F71B1EFA5EFE00799E86 /* BaseModel.swift in Sources */,
 				03B20F1F1EFBACFA005AC817 /* AnchorViewController.swift in Sources */,
 				03B20F231EFBB45C005AC817 /* HomeModel.swift in Sources */,
 				03C0F7131EFA598300799E86 /* DiscoverController.swift in Sources */,
 				03C0F7291EFA62E200799E86 /* SeanPageViewStyle.swift in Sources */,
 				03C0F7241EFA62E200799E86 /* SeanGiftLayout.swift in Sources */,
+				03E88FB91F1E01BC004E460A /* NetworkTools.swift in Sources */,
+				03E88FB51F1DFA61004E460A /* KingfisherExtension.swift in Sources */,
 				03C0F7251EFA62E200799E86 /* SeanGiftView.swift in Sources */,
 				03C0F7261EFA62E200799E86 /* SeanPageContentView.swift in Sources */,
+				032B27F51F3033F200A5BE31 /* GiftVM.swift in Sources */,
+				032B27ED1F30273000A5BE31 /* GiftListView.swift in Sources */,
+				032B27F71F30341F00A5BE31 /* GiftModel.swift in Sources */,
+				03D8D0931F258F6A0088BEC5 /* RommController.swift in Sources */,
 				03C0F7271EFA62E200799E86 /* SeanPageTitleView.swift in Sources */,
 				03C0F7281EFA62E200799E86 /* SeanPageView.swift in Sources */,
+				03A33CF31F2832460050F583 /* EmoticonViewCell.swift in Sources */,
+				0306C7BA1F1CB2680074CEA0 /* ConstString.swift in Sources */,
+				032B27F91F304E9000A5BE31 /* GiftPackage.swift in Sources */,
 				03C0F7231EFA62E200799E86 /* SeanColor-Extension.swift in Sources */,
+				032B27F01F30275600A5BE31 /* GiftViewCell.swift in Sources */,
+				03AB7B5C1F21ED65009AA482 /* HomeViewCell.swift in Sources */,
+				030F1F5A1F2B1D7E00D4F874 /* EmoticonPackage.swift in Sources */,
 				03C0F7091EFA420F00799E86 /* MainViewController.swift in Sources */,
 				03C0F6BE1EFA1C5F00799E86 /* ViewController.swift in Sources */,
 				03C0F6BC1EFA1C5F00799E86 /* AppDelegate.swift in Sources */,
+				03A33D021F287CFB0050F583 /* EmoticonView.swift in Sources */,
+				0306C7B81F1CB10A0074CEA0 /* SeanWaterFallLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

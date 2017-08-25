@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="236" id="KGk-i7-Jjw" customClass="HomeViewCell" customModule="SeanLive" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="253" height="236"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" tag="100" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM" customClass="HomeViewCell" customModule="SeanLive" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="253" height="235.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="G0g-Sf-GOo">
+                        <rect key="frame" x="0.0" y="0.0" width="253" height="235.5"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_icon_live" translatesAutoresizingMaskIntoConstraints="NO" id="Ulx-h8-GG0">
+                        <rect key="frame" x="222" y="8" width="23" height="13"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="梅丽丽的大小姐" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiP-h1-TPb">
+                        <rect key="frame" x="8" y="210" width="100" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSM-Ey-CQO">
+                        <rect key="frame" x="118" y="210.5" width="46" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <state key="normal" title="6666" image="zhibo_btn_people">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="sSM-Ey-CQO" firstAttribute="centerY" secondItem="yiP-h1-TPb" secondAttribute="centerY" id="1gI-gh-YUC"/>
+                    <constraint firstItem="Ulx-h8-GG0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="5jP-dx-OlL"/>
+                    <constraint firstAttribute="trailing" secondItem="G0g-Sf-GOo" secondAttribute="trailing" id="83i-7G-JqL"/>
+                    <constraint firstItem="G0g-Sf-GOo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="DlR-AK-pYC"/>
+                    <constraint firstAttribute="bottom" secondItem="G0g-Sf-GOo" secondAttribute="bottom" id="TkG-1p-w9U"/>
+                    <constraint firstItem="yiP-h1-TPb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="UNd-Id-WUP"/>
+                    <constraint firstAttribute="bottom" secondItem="yiP-h1-TPb" secondAttribute="bottom" constant="8" id="bpO-vy-s8B"/>
+                    <constraint firstItem="G0g-Sf-GOo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jS8-d8-epn"/>
+                    <constraint firstAttribute="trailing" secondItem="Ulx-h8-GG0" secondAttribute="trailing" constant="8" id="puL-9X-VRm"/>
+                    <constraint firstItem="sSM-Ey-CQO" firstAttribute="leading" secondItem="yiP-h1-TPb" secondAttribute="trailing" constant="10" id="zhn-bc-JkP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgImageView" destination="G0g-Sf-GOo" id="zm0-um-c26"/>
+                <outlet property="liveImageView" destination="Ulx-h8-GG0" id="1GM-Cg-L4t"/>
+                <outlet property="livePeopleBtn" destination="sSM-Ey-CQO" id="ON6-aD-VZI"/>
+                <outlet property="nameLabel" destination="yiP-h1-TPb" id="l6j-XX-b9i"/>
+            </connections>
+            <point key="canvasLocation" x="-105.5" y="-43"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_icon_live" width="23" height="13"/>
+        <image name="zhibo_btn_people" width="20" height="16"/>
+    </resources>
+</document>

@@ -12,6 +12,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.automaticallyAdjustsScrollViewInsets = false
         configNav()
         configUI()
     }
@@ -57,11 +58,29 @@ extension HomeViewController {
     func configUI() {
         // 1.获取plist文档数据
        let models = loadPlist()
+       
+      let style = SeanPageViewStyle()
+        style.isScrollEnable = true
+        style.isShowCover = true
+    let pageFrame = CGRect(x: 0, y: kNavHeight + kStatusBarH, width: kScreenW, height: kScreenH - kNavHeight - kStatusBarH - 44)
+        //取出model的第0个的title属性
+        let titles = models.map({ $0.title})
+        
+        var childVcs = [AnchorViewController]()
+        for model in models {
+            let childVc = AnchorViewController()
+            childVc.homeType = model
+            childVcs.append(childVc)
+        }
+        
+     let pageView = SeanPageView(frame: pageFrame, style: style, childVcs: childVcs, titles: titles, parentVc: self)
+        
+        view.addSubview(pageView)
     }
     
     func loadPlist() -> [HomeModel] {
         
-        let path = Bundle.main.path(forResource: "type", ofType: "plist")!
+        let path = Bundle.main.path(forResource: "types", ofType: "plist")!
     
         let dics = NSArray(contentsOfFile: path) as! [[String : Any]]
         
@@ -73,7 +92,7 @@ extension HomeViewController {
         }
         return models
     }
-    
+ 
 }
 
 

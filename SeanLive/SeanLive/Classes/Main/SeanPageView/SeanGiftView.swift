@@ -19,7 +19,10 @@ protocol SeanGiftViewDelegate {
      func collectionView(_ giftView: SeanGiftView, didSelectItemAt indexPath: IndexPath)
 }
 
-
+// MARK:- 可选协议的写法
+//@objc protocol SeanGiftViewDelegate {
+//    @objc optional  func collectionView(_ giftView: SeanGiftView, didSelectItemAt indexPath: IndexPath)
+//}
 
 class SeanGiftView: UIView {
     
@@ -68,7 +71,7 @@ extension SeanGiftView {
         let titleFrame = CGRect(x: 0, y: titleY, width: bounds.width, height: style.titleHeight)
         titleView = SeanPageTitleView(frame: titleFrame, titles: titles, style: style)
         titleView.delegate = self
-        titleView.backgroundColor = UIColor.randomColor()
+        titleView.backgroundColor = style.titleBgColor
          addSubview(titleView)
         
         // 2.创建pageControl
@@ -80,9 +83,10 @@ extension SeanGiftView {
         pageControl.numberOfPages = 4
         pageControl.isEnabled = false
         addSubview(pageControl)
-        pageControl.backgroundColor = UIColor.randomColor()
-        
-        // 3.创建contentView 
+        pageControl.backgroundColor = style.pageBgColor
+        pageControl.currentPageIndicatorTintColor = style.pageCurrtenColor
+        pageControl.pageIndicatorTintColor = style.pageTintColor
+        // 3.创建contentView
         let collectionY = isTop ? style.titleHeight : 0
         
         collectionView = UICollectionView(frame: CGRect(x: 0, y: collectionY, width: bounds.width, height: bounds.height - style.titleHeight - pageHeight), collectionViewLayout: layout)
@@ -90,7 +94,7 @@ extension SeanGiftView {
         collectionView.dataSource = self
         collectionView.isPagingEnabled = true
         collectionView.showsHorizontalScrollIndicator = false
-        collectionView.backgroundColor = UIColor.randomColor()
+        collectionView.backgroundColor = style.contenViewBgColor
             addSubview(collectionView)
     }
 }
@@ -102,6 +106,10 @@ extension SeanGiftView {
     }
     func registerNib(nib : UINib, idenfier : String){
         collectionView.register(nib, forCellWithReuseIdentifier: idenfier)
+    }
+    
+    func reloadData() {
+        collectionView.reloadData()
     }
 }
 
@@ -175,6 +183,9 @@ extension SeanGiftView : SeanPageTitleViewDelegate {
     }
     
 }
+
+
+
 
 
 

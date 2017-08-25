@@ -45,6 +45,20 @@ class SeanPageViewStyle {
     var coverH : CGFloat = 25
     /// 设置圆角大小
     var coverRadius : CGFloat = 12
-
+    //titleView背景色
+    var titleBgColor : UIColor = UIColor.gray
+    //pageControl选中色
+    var pageCurrtenColor : UIColor = UIColor.white
+    //pageControl未选中颜色
+    var pageTintColor : UIColor = UIColor.darkGray
+    
+    var pageBgColor : UIColor = UIColor.init(r: 0, g: 0, b: 0)
+    
+    //contentView背景色
+    var contenViewBgColor : UIColor = UIColor.init(r: 0, g: 0, b: 0, alpha: 1)
     
 }
+
+
+
+
